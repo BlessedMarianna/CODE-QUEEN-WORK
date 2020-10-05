@@ -1,0 +1,66 @@
+body {
+    background-image: cross-fade("https://cdn.mos.cms.futurecdn.net/jbCNvTM4gwr2qV8X8fW3ZB.png");
+    background-color: rgb(37, 36, 36);
+    font-family: 'Sansita Swashed', cursive;
+}
+body > div {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    background-color:rgb(233, 229, 229);
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow:10px 10px #f3eeee17;
+    border-radius: 15px;
+    
+}
+h1{background-color: rgb(216, 213, 213);
+    width:"20px"
+}
+.Introduction{
+background-color: rgb(186, 189, 190);
+color: rgb(71, 71, 71);
+
+}  
+.Skills{
+background-color: rgb(162, 162, 163);
+color: rgb(63, 62, 62);
+}
+.Hobbies{
+background-color: rgb(156, 155, 155);
+color: rgb(39, 38, 38);
+}
+.More{
+background-color: rgb(151, 153, 153);
+align-items: left;
+color: rgb(58, 58, 58);
+}
+.Image {
+    background-image: url("https://cdn.mos.cms.futurecdn.net/jbCNvTM4gwr2qV8X8fW3ZB.png");
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: 100%;
+    background-repeat: space;
+    background-size: 100%;
+  }
+  .Fill{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+  }  
