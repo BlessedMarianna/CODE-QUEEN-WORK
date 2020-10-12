@@ -1,0 +1,51 @@
+.container {
+  position: relative;
+  background-color:white;
+}
+  .fill{
+    background-image: url("https://i.pinimg.com/originals/a3/51/82/a351820b268070215664dcdbd4dc7a84.jpg");
+    background-position: 20%;
+    background-size: 150%;
+    background-position-x: 59.9px;
+    font-weight: bold;
+    position: center;
+    width: 700px;
+    height: 500px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+  }  
+.Signup-button {
+  width: 300px;
+  height: 30px;
+  background-color: blue;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+}
+.Login-button {
+  width: 295px;
+  height: 28px;
+  background-color: white;
+  color: blue;
+  text-align: center;
+  border: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  margin: 5px;
+  
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.list{
+  text-align: center;
+  padding-top: 150px;
+}
+.login-header{
+  float: right;
+  padding-top: 50px;
+  margin-top: -500px;
+  margin-right: 200px;
+}
