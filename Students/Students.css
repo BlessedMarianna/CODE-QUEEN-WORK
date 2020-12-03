@@ -1,0 +1,154 @@
+body{
+    background:grey;
+    width: auto;
+    height: auto;
+}
+.Top{
+    position: absolute;
+    float: left;
+    top: 25%;
+    left:9.5%;
+    text-align: center;
+}
+.Logo{
+    width: 140px;
+    height: 120px;
+    padding-top: 1%;
+}
+.Search{
+    width: 984px;
+    height: 5%;
+
+}
+.List{
+    color: Black;
+}
+.Image {
+    background-image: url("https://educateachild.org/sites/default/files/styles/610x240/public/images/2015//MCAZALS-KENYA-9.jpg?itok=Y8zGzH8T");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image */
+    background-position: 100%;
+    background-size: 100%;
+  }
+  h1{
+    height:50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.Header{
+    background-color: rgb(2, 2, 2); /* Fallback color */
+    background-color: rgba(2, 2, 2, 0.7); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 70%;
+    padding: 3px;
+    text-align: center;
+  }
+  .Home {
+      text-align: left;
+      padding: 50px;
+  }
+  .Students {
+      text-align: left;
+  }
+.Middle{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 71%;
+    padding: 3px;
+    text-align: center;
+  } 
+table{ 
+    background-color: rgb(54, 53, 53); /* Fallback color */
+    background-color: rgba(2, 2, 2, 0.7); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    border-collapse:separate; 
+    border-spacing: 90 10px; 
+    } 
+    th{ 
+    background:black; 
+    border: grey;
+    color: white; 
+    } 
+    th,td{ 
+    width: 150px; 
+    text-align: center;  
+    padding: 5px;
+    }
+    .line{
+        background: black;
+    }
+    #Back {
+        width: 10em;
+        text-align:right;
+        position: absolute;
+        float: left;
+        top: 70%;
+        left: 90%;
+    }
+    .Back button:hover {
+        background-color: black;
+      }
+    a {
+        display: block;
+        width: 50%;
+        line-height: 2em;
+        text-align: center;
+    }
+    a:hover {
+        color: red;
+    }
+  
+    .button{
+        background-color: #a3f5a5;
+    }
+    .button1{
+        background-color: rgb(75, 73, 73);
+        color: white;
+    }
+    .button2{
+        background: rgb(180, 228, 247);
+    }
+    .button3{
+        background:rgb(247, 172, 172)
+    }
+    .btn-group button {
+        padding: 5px 10px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+      }
+      /* Clear floats (clearfix hack) */
+      .btn-group:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group button:hover {
+        background-color: #3e8e41;
+      }
+    
